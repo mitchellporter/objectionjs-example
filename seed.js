@@ -72,11 +72,7 @@ const createUser = ['team', function createMitchellUser(results, callback) {
         team: results.team.id
     };
 
-    // NOTES: If you don't explicitly call frpomJson, you should get the following output from the console:
-    // "seed error: error: insert into "User" ("avatar_url", "email", "name", "password", "position") values ($1, $2, $3, $4, $5) returning * - null value in column "team_id" violates not-null constraint"
-    
-    // If you uncomment the code below, and then insert the json, it works fine because the $parseJson cleanup ws triggered
-    const user = User.fromJson(user_json);
+    // const user = User.fromJson(user_json);
 
     User
     .query()
