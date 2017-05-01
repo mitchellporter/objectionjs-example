@@ -1,0 +1,22 @@
+{
+  "name": "objection-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async": "2.4.0",
+    "casual": "1.5.12",
+    "faker": "4.1.0",
+    "knex": "0.13.0",
+    "knex-cleaner": "1.1.3",
+    "lodash": "4.17.4",
+    "objection": "0.7.12",
+    "pg": "6.1.5"
+  }
+}
